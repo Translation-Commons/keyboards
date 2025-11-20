@@ -1,0 +1,8 @@
+﻿store(&NAME) 'workshop'
+store(&COPYRIGHT) 'translation commons'
+store(&KEYBOARDVERSION) '1'
+begin Unicode > use(main)
+
+group(main) using keys
++ [K_S] > 'B'
++ [K_A] > '@'

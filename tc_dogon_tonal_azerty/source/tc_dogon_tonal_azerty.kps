@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <System>
+    <KeymanDeveloperVersion>16.0.144.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram></ExecuteProgram>
+    <ReadMeFile>readme.htm</ReadMeFile>
+    <MSIFileName></MSIFileName>
+    <MSIOptions></MSIOptions>
+    <FollowKeyboardVersion/>
+  </Options>
+  <StartMenu>
+    <Folder></Folder>
+    <Items/>
+  </StartMenu>
+  <Info>
+    <Name URL="">TC Dogon Tonal AZERTY</Name>
+    <Copyright URL="">©2023 Tex Texin, Translation Commons</Copyright>
+    <Author URL="mailto:textexin@translationcommons.org">Tex Texin</Author>
+    <Version URL=""></Version>
+    <WebSite URL="https://TranslationCommons.org">https://TranslationCommons.org</WebSite>
+  </Info>
+  <Files>
+    <File>
+      <Name>..\build\tc_dogon_tonal_azerty.kmx</Name>
+      <Description></Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>..\build\tc_dogon_tonal_azerty.kvk</Name>
+      <Description></Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kvk</FileType>
+    </File>
+    <File>
+      <Name>welcome.htm</Name>
+      <Description></Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>readme.htm</Name>
+      <Description></Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>dogon_base.png</Name>
+      <Description>File dogon_base.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>dogon_shift.png</Name>
+      <Description>File dogon_shift.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>..\build\tc_dogon_tonal_azerty.js</Name>
+      <Description>File tc_dogon_tonal_azerty.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <Name>TC Dogon Tonal AZERTY</Name>
+      <ID>tc_dogon_tonal_azerty</ID>
+      <Version>1.01</Version>
+      <Languages>
+        <Language ID="dgs">Dogoso</Language>
+      </Languages>
+    </Keyboard>
+  </Keyboards>
+  <Strings/>
+</Package>

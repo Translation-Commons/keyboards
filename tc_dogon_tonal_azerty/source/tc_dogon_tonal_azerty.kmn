@@ -1,0 +1,167 @@
+﻿c No functional changes, updating to Keyman Developer version 18
+store(&Version) "10.0"
+store(&NAME) 'TC Dogon Tonal AZERTY 1.02'
+store(&TARGETS) 'any windows macosx linux web iphone ipad androidphone androidtablet mobile desktop tablet'
+store(&VISUALKEYBOARD) 'tc_dogon_tonal_azerty.kvks'
+store(&BITMAP) 'tc_dogon_tonal_azerty.ico'
+store(&COPYRIGHT) '©2023 Tex Texin, Translation Commons'
+store(&KEYBOARDVERSION) '1.2.1'
+
+begin Unicode > use(main)
+store(&CasedKeys) [K_A]..[K_Z]
+store(m_acute) U+0301
+store(m_grave) U+300
+store(m_hat) U+302
+store(m_v) U+30C
+store(m_macron) U+304
+store(bslash) U+005C
+store(closedletters) "eEoOnN"
+store(closedlettersaccented) "eEoO"
+store(openletters) "ɛƐɔƆɲƝ"
+c swap q and a
+store(vowelkeys) [K_Q] [SHIFT K_Q] "eiouEIOU"
+store(vowel) "aAeiouEIOU"
+store(mappedkeys) "aqwzAQWZ"
+store(newkeys) "qazwQAZW"
+
+group(main) using keys
+c keys remapped q, a, w, z  $=> € ₤ ¥
++ any(mappedkeys) > index(newkeys,1)
+
++ [SHIFT K_4] > '€'
+'₤' + [SHIFT K_4] > '¥'
+"€" + [SHIFT K_4] > '₤'
+
+c deadkeys
++ "'" > dk(d_acute)
+dk(d_acute) + "'" > "'"
+
++ "`" > dk(d_grave)
+dk(d_grave) + "`" > "`"
+
++ "^" > dk(d_hat)
+dk(d_hat) + "^" > "^"
+
++ $bslash > dk(d_bslash)
+dk(d_bslash) + $bslash > $bslash
+
++ "_" > dk(d_macron)
+dk(d_macron) + "_" > "_"
+
++ "]" > dk(d_open)
+dk(d_open) + "]" > "]"
+
++ "[" > dk(d_close)
+dk(d_close) + "[" > "["
+
+c map closed letters to open letters
+dk(d_open) + any(closedletters) > index(openletters,2)
+dk(d_acute) dk(d_open) + any(closedlettersaccented) > index(openletters,3) $m_acute
+dk(d_grave) dk(d_open) + any(closedlettersaccented) > index(openletters,3) $m_grave
+dk(d_hat)   dk(d_open) + any(closedlettersaccented) > index(openletters,3) $m_hat
+dk(d_bslash) dk(d_open) + any(closedlettersaccented) > index(openletters,3) $m_v
+dk(d_macron) dk(d_open) + any(closedlettersaccented) > index(openletters,3) $m_macron
+
+
+c diacritics
+dk(d_acute) + any(vowelkeys) > index(vowel,2) $m_acute
+dk(d_grave) + any(vowelkeys) > index(vowel,2) $m_grave
+dk(d_hat)   + any(vowelkeys) > index(vowel,2) $m_hat
+dk(d_bslash) + any(vowelkeys) > index(vowel,2) $m_v
+dk(d_macron) + any(vowelkeys) > index(vowel,2) $m_macron
+
+".." + "." > "…"	c ellipses
+"<" + "<" > U+00AB        c Angled quotes - guillemets
+">" + ">" > U+00BB
+
+dk(d_close) + "N" > "Ŋ"		c N Ŋ
+dk(d_close) + "n" > "ŋ"
+dk(d_close) + "o" > "°"		c degree
+
+
+
++ [K_SLASH] > '/'
++ [K_PERIOD] > '.'
++ [K_COMMA] > ','
++ [K_QUOTE] > "'"
++ [K_COLON] > ';'
++ [K_BKSLASH] > '\'
++ [K_RBRKT] > ']'
++ [K_LBRKT] > '['
++ [K_EQUAL] > '='
++ [K_HYPHEN] > '-'
++ [K_BKQUOTE] > '`'
++ [SHIFT K_BKQUOTE] > '~'
++ [SHIFT K_SLASH] > '?'
++ [SHIFT K_PERIOD] > '>'
++ [SHIFT K_COMMA] > '<'
++ [SHIFT K_QUOTE] > '"'
++ [SHIFT K_COLON] > ':'
++ [SHIFT K_BKSLASH] > '|'
++ [SHIFT K_RBRKT] > '}'
++ [SHIFT K_LBRKT] > '{'
++ [SHIFT K_EQUAL] > '+'
++ [SHIFT K_HYPHEN] > '_'
++ [shift K_0] > ')'
++ [shift K_1] > '!'
++ [SHIFT K_2] > '@'
++ [SHIFT K_3] > '#'
++ [SHIFT K_5] > '%'
++ [SHIFT K_6] > '^'
++ [SHIFT K_7] > '&'
++ [SHIFT K_8] > '*'
++ [SHIFT K_9] > '('
++ [K_0] > '0'
++ [K_1] > '1'
++ [K_2] > '2'
++ [K_3] > '3'
++ [K_4] > '4'
++ [K_5] > '5'
++ [K_6] > '6'
++ [K_7] > '7'
++ [K_8] > '8'
++ [K_9] > '9'
++ [K_b] > 'b'
++ [K_c] > 'c'
++ [K_d] > 'd'
++ [K_e] > 'e'
++ [K_f] > 'f'
++ [K_g] > 'g'
++ [K_h] > 'h'
++ [K_i] > 'i'
++ [K_j] > 'j'
++ [K_k] > 'k'
++ [K_l] > 'l'
++ [K_M] > 'm'
++ [K_n] > 'n'
++ [K_o] > 'o'
++ [K_p] > 'p'
++ [K_r] > 'r'
++ [K_s] > 's'
++ [K_t] > 't'
++ [K_u] > 'u'
++ [K_v] > 'v'
++ [K_x] > 'x'
++ [K_y] > 'y'
++ [SHIFT K_B]>'B'
++ [SHIFT K_C]>'C'
++ [SHIFT K_D]>'D'
++ [SHIFT K_E]>'E'
++ [SHIFT K_F]>'F'
++ [SHIFT K_G]>'J'
++ [SHIFT K_H]>'H'
++ [SHIFT K_I]>'I'
++ [SHIFT K_J]>'J'
++ [SHIFT K_K]>'K'
++ [SHIFT K_L]>'L'
++ [SHIFT K_M] > 'M'
++ [SHIFT K_N]>'N'
++ [SHIFT K_O]>'O'
++ [SHIFT K_P]>'P'
++ [SHIFT K_R]>'R'
++ [SHIFT K_S]>'S'
++ [SHIFT K_T]>'T'
++ [SHIFT K_U]>'U'
++ [SHIFT K_V]>'V'
++ [SHIFT K_X]>'X'
++ [SHIFT K_Y]>'Y'
