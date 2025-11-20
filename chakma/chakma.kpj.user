@@ -3,45 +3,50 @@
   <ViewState>
     <tab>3</tab>
     <showhelp>1</showhelp>
-    <path>C:\Mac\Home\Documents\Keyman Developer\Projects\chakma\chakma.kpj</path>
+    <path>\\Mac\Home\GitHub\TC_keyboards\chakma\chakma.kpj</path>
     <file ID="id_8f80bd3d4362e3599c3e02f1fe92a31f" Expanded="1"/>
+    <file ID="id_2de4a291a3c14fe605b03d9afd0a9422" Expanded="1"/>
   </ViewState>
   <FileStates>
     <FileState>
       <ID>id_53e892b8b41cc4caece1cfd5ef21d6e7</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\chakma\LICENSE.md</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\chakma\LICENSE.md</FullPath>
     </FileState>
     <FileState>
       <ID>id_54211e2dc18fb16a727829a62143ca29</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\chakma\chakma.kpj</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\chakma\chakma.kpj</FullPath>
     </FileState>
     <FileState>
       <ID>id_f87e6f92dfe376f662bf462a14ccc8d7</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\chakma\chakma.keyboard_info</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\chakma\chakma.keyboard_info</FullPath>
     </FileState>
     <FileState>
       <ID>id_f62df81824e0ea2e559e20efe7af7974</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\chakma\chakma.kpj.user</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\chakma\chakma.kpj.user</FullPath>
     </FileState>
     <FileState>
       <ID>id_ede98e4633e239f933cbfd1f4e1b766c</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\chakma\HISTORY.md</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\chakma\HISTORY.md</FullPath>
     </FileState>
     <FileState>
       <ID>id_0730bb7c2e8f9ea2438b52e419dd86c9</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\chakma\README.md</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\chakma\README.md</FullPath>
     </FileState>
     <FileState>
       <ID>id_5091f14fc631e4d250b5aeecfba5b6d9</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\chakma\RibengUni-Regular_20220606.ttf</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\chakma\RibengUni-Regular_20220606.ttf</FullPath>
     </FileState>
     <FileState>
       <ID>id_c2bb857059ef7cb9ab17558758376446</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\chakma\source\chakma-code.js</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\chakma\source\chakma-code.js</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_ea6f38229c3afa34307fdf05f4e6d371</ID>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\chakma\source\NotoSerif-Italic-VariableFont_wdth,wght.ttf</FullPath>
     </FileState>
     <FileState>
       <ID>id_8f80bd3d4362e3599c3e02f1fe92a31f</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\chakma\source\chakma.kmn</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\chakma\source\chakma.kmn</FullPath>
       <IDEState>
         <LayoutDisplay102Key>0</LayoutDisplay102Key>
         <DebugDefaultFont>1</DebugDefaultFont>
@@ -53,49 +58,55 @@
       <Debug>True</Debug>
     </FileState>
     <FileState>
+      <ID>id_63cb442baca311ffd07bde754ca7bd63</ID>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\chakma\source\NotoSerif-VariableFont_wdth,wght.ttf</FullPath>
+    </FileState>
+    <FileState>
       <ID>id_c594ba27624b4b965b1a9794c2a2ad77</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\chakma\source\chakma.keyman-touch-layout</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\chakma\source\chakma.keyman-touch-layout</FullPath>
     </FileState>
     <FileState>
       <ID>id_8da344c4cea6f467013357fe099006f5</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\chakma\source\readme.htm</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\chakma\source\readme.htm</FullPath>
     </FileState>
     <FileState>
       <ID>id_2de4a291a3c14fe605b03d9afd0a9422</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\chakma\source\chakma.kps</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\chakma\source\chakma.kps</FullPath>
     </FileState>
     <FileState>
       <ID>id_356e5d149c1e539356d72698c1e401a6</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\chakma\source\welcome.htm</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\chakma\source\welcome.htm</FullPath>
     </FileState>
     <FileState>
       <ID>id_21b9dd759f51e897897be0d72e72e48d</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\chakma\source\chakma.ico</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\chakma\source\chakma.ico</FullPath>
     </FileState>
     <FileState>
       <ID>id_f096bb2d414b39bacc1c9829f33ad48b</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\chakma\source\chakma.kvks</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\chakma\source\chakma.kvks</FullPath>
     </FileState>
     <FileState>
       <ID>id_2c19c8882c2a03a0c80d4bd920f52479</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\chakma\source\..\build\chakma.kmx</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\chakma\source\..\build\chakma.kmx</FullPath>
     </FileState>
     <FileState>
       <ID>id_79a8d9ca7e0da723a8b8fcbe89f6e5ad</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\chakma\source\..\build\chakma.js</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\chakma\source\..\build\chakma.js</FullPath>
     </FileState>
     <FileState>
       <ID>id_f4f40cdcaef714a8b86647b782ac90b6</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\chakma\source\..\build\chakma.kvk</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_1b595b6077acf3085c333eac12ae5079</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\chakma\source\..\..\..\tai yo\tai_yo\NotoSerifTaiYo-Regular.ttf</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\chakma\source\..\build\chakma.kvk</FullPath>
     </FileState>
   </FileStates>
   <MRU>
     <File>
       <ID>id_MRU0</ID>
+      <Filename>chakma.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\chakma\source\chakma.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
       <Filename>chakma.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\chakma\source\chakma.kmn</FullPath>
