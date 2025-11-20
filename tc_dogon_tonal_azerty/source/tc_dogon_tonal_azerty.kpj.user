@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProjectUser>
+  <ViewState>
+    <tab>1</tab>
+    <showhelp>1</showhelp>
+    <path>C:\Users\Tex\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\tc_dogon_tonal_azerty.kpj</path>
+    <file ID="id_MRU0" Expanded="1"/>
+    <file ID="id_MRU1" Expanded="1"/>
+    <file ID="id_MRU2" Expanded="1"/>
+    <file ID="id_MRU3" Expanded="1"/>
+    <file ID="id_MRU5" Expanded="1"/>
+    <file ID="id_MRU6" Expanded="1"/>
+    <file ID="id_6ba8b6eeff5683ba6250d686b5b08a92" Expanded="1"/>
+    <file ID="id_1624ce2b8784a205f85ec33ca097f012" Expanded="1"/>
+    <file ID="id_a7244125a1dac20f0ef9ccd011eddc60" Expanded="1"/>
+  </ViewState>
+  <FileStates>
+    <FileState>
+      <ID>id_6ba8b6eeff5683ba6250d686b5b08a92</ID>
+      <FullPath>C:\Users\Tex\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\source\tc_dogon_tonal_azerty.kmn</FullPath>
+      <IDEState>
+        <LayoutDisplay102Key>0</LayoutDisplay102Key>
+        <DebugDefaultFont>1</DebugDefaultFont>
+        <DebugFont>Consolas|12|   |0</DebugFont>
+        <CodeFont>Consolas|12|   |0</CodeFont>
+        <CharFont>Consolas|12|   |0</CharFont>
+      </IDEState>
+      <Debug>True</Debug>
+    </FileState>
+    <FileState>
+      <ID>id_a7244125a1dac20f0ef9ccd011eddc60</ID>
+      <FullPath>C:\Users\Tex\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\source\tc_dogon_tonal_azerty.kps</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_ede98e4633e239f933cbfd1f4e1b766c</ID>
+      <FullPath>C:\Users\Tex\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\HISTORY.md</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_53e892b8b41cc4caece1cfd5ef21d6e7</ID>
+      <FullPath>C:\Users\Tex\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\LICENSE.md</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_0730bb7c2e8f9ea2438b52e419dd86c9</ID>
+      <FullPath>C:\Users\Tex\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\README.md</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_c72a337e3ebb9eeaff3d60aabdc84ee1</ID>
+      <FullPath>C:\Users\Tex\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\tc_dogon_tonal_azerty.keyboard_info</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_79e61a653a7e6d87bf4e9e60f05b1aa5</ID>
+      <FullPath>C:\Users\Tex\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\source\dogon_base.png</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_d30c3e66302722f5f57ed10c5e87f175</ID>
+      <FullPath>C:\Users\Tex\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\source\dogon_shift.png</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_d51d3be7d7d131f0cd36c623353f14c1</ID>
+      <FullPath>C:\Users\Tex\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\source\tc_dogon_tonal_azerty.ico</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_9fbc82e7e56c47ef6ccbc4ae8f5633d1</ID>
+      <FullPath>C:\Users\Tex\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\build\tc_dogon_tonal_azerty.kmx</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_007e273f9ef2b072ca0003de97011792</ID>
+      <FullPath>C:\Users\Tex\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\build\tc_dogon_tonal_azerty.kvk</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_356e5d149c1e539356d72698c1e401a6</ID>
+      <FullPath>C:\Users\Tex\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\source\welcome.htm</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_8da344c4cea6f467013357fe099006f5</ID>
+      <FullPath>C:\Users\Tex\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\source\readme.htm</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_d7b5c1d47a8d01dc7b30872249e767db</ID>
+      <FullPath>C:\Users\Tex\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\build\tc_dogon_tonal_azerty.js</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_c5febd4917d795126a054941ae7fe3b7</ID>
+      <FullPath>C:\Users\Tex\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\layers.keyman-touch-layout</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_1624ce2b8784a205f85ec33ca097f012</ID>
+      <FullPath>C:\Users\Tex\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\layers.kmn</FullPath>
+      <Debug>False</Debug>
+    </FileState>
+    <FileState>
+      <ID>id_70057f4535971f3fbf3072549f3d76b2</ID>
+      <FullPath>C:\Users\Tex\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\layers.kvks</FullPath>
+    </FileState>
+  </FileStates>
+  <MRU>
+    <File>
+      <ID>id_MRU0</ID>
+      <Filename>layers.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\Users\Tex\Documents\Keyman Developer\Projects\layers\layers.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
+      <Filename>tc_dogon_tonal_azerty.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\Users\Tex\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\tc_dogon_tonal_azerty.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU2</ID>
+      <Filename>welcome.htm</Filename>
+      <FileType>.htm</FileType>
+      <FullPath>C:\Users\Tex\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\welcome.htm</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU3</ID>
+      <Filename>tc_dogon_tonal_azerty_v1_01.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\Users\Tex\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\tc_dogon_tonal_azerty_v1_01.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU4</ID>
+      <Filename>kissi.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\Users\Tex\Downloads\kissi.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU5</ID>
+      <Filename>tc_dogon_tonal_azerty.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>C:\Users\Tex\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\tc_dogon_tonal_azerty.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU6</ID>
+      <Filename>tc_dogon_tonal_azerty.keyboard_info</Filename>
+      <FileType>.keyboard_info</FileType>
+      <FullPath>C:\Users\Tex\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\tc_dogon_tonal_azerty.keyboard_info</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU7</ID>
+      <Filename>LICENSE.md</Filename>
+      <FileType>.md</FileType>
+      <FullPath>C:\Users\Tex\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\LICENSE.md</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU8</ID>
+      <Filename>readme.htm</Filename>
+      <FileType>.htm</FileType>
+      <FullPath>C:\Users\Tex\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\readme.htm</FullPath>
+    </File>
+  </MRU>
+</KeymanDeveloperProjectUser>
