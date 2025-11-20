@@ -1,0 +1,113 @@
+﻿c KeyMan keyboard generated from Google Input Tools format
+c New mobile layout
+ 
+store(&VERSION) '10.0'
+store(&NAME) '𑄌𑄋𑄴𑄟𑄳𑄦'
+store(&KEYBOARDVERSION) '1.1'
+store(&TARGETS) 'any'
+store(&MESSAGE) 'Chakma keyboard'
+store(&VISUALKEYBOARD) 'chakma.kvks'
+store(&KMW_EMBEDJS) 'chakma-code.js'
+store(&COPYRIGHT) '© 2023 Craig Cornelius'
+store(&LAYOUTFILE) 'chakma.keyman-touch-layout'
+
+begin Unicode > use(main)
+
+group(main) using keys
+ 
++ [K_BKQUOTE] > U+0060 
++ [K_1] > U+011137 
++ [K_2] > U+011138 
++ [K_3] > U+011139 
++ [K_4] > U+01113A 
++ [K_5] > U+01113B 
++ [K_6] > U+01113C 
++ [K_7] > U+01113D 
++ [K_8] > U+01113E 
++ [K_9] > U+01113F 
++ [K_0] > U+011136 
++ [K_HYPHEN] > U+002D 
++ [K_EQUAL] > U+003D 
++ [K_Q] > U+01110B 
++ [K_W] > U+011121 
++ [K_E] > U+011113 
++ [K_R] > U+01111B 
++ [K_T] > U+011111 
++ [K_Y] > U+01110C 
++ [K_U] > U+01110E 
++ [K_I] > U+011126 
++ [K_O] > U+011109 
++ [K_P] > U+011124 
++ [K_LBRKT] > U+005B 
++ [K_RBRKT] > U+005D 
++ [K_BKSLASH] > U+011142 
++ [K_A] > U+01112D 
++ [K_S] > U+01112A 
++ [K_D] > U+011128 
++ [K_F] > U+011127 
++ [K_G] > U+011133 
++ [K_H] > U+01111D 
++ [K_J] > U+011107 
++ [K_K] > U+011116 
++ [K_L] > U+011118 
++ [K_COLON] > U+011134 
++ [K_QUOTE] > U+0027 
++ [K_Z] > U+011104 
++ [K_X] > U+01112E 
++ [K_C] > U+01112C 
++ [K_V] > U+011122 
++ [K_B] > U+01111A 
++ [K_N] > U+011125 
++ [K_M] > U+01111F 
++ [K_COMMA] > U+002C 
++ [K_PERIOD] > U+002E 
++ [K_SLASH] > U+011144 
+
+
++ [SHIFT K_BKQUOTE] > U+007E 
++ [SHIFT K_1] > U+0021 
++ [SHIFT K_2] > U+0040 
++ [SHIFT K_3] > U+0023 
++ [SHIFT K_4] > U+011147 
++ [SHIFT K_5] > U+0025 
++ [SHIFT K_6] > U+011140 
++ [SHIFT K_7] > U+011100 
++ [SHIFT K_8] > U+002A 
++ [SHIFT K_9] > U+0028 
++ [SHIFT K_0] > U+0029 
++ [SHIFT K_HYPHEN] > U+005F 
++ [SHIFT K_EQUAL] > U+003B 
++ [SHIFT K_Q] > U+011101 
++ [SHIFT K_W] > U+011120 
++ [SHIFT K_E] > U+011114 
++ [SHIFT K_R] > U+01111C 
++ [SHIFT K_T] > U+011112 
++ [SHIFT K_Y] > U+01110D 
++ [SHIFT K_U] > U+01110F 
++ [SHIFT K_I] > U+011110 
++ [SHIFT K_O] > U+01110A 
++ [SHIFT K_P] > U+011105 
++ [SHIFT K_LBRKT] > U+007B 
++ [SHIFT K_RBRKT] > U+007D 
++ [SHIFT K_BKSLASH] > U+011102 
++ [SHIFT K_A] > U+011131 
++ [SHIFT K_S] > U+01112B 
++ [SHIFT K_D] > U+011129 
++ [SHIFT K_F] > U+011103 
++ [SHIFT K_G] > U+011141 
++ [SHIFT K_H] > U+01111E 
++ [SHIFT K_J] > U+011108 
++ [SHIFT K_K] > U+011117 
++ [SHIFT K_L] > U+011119 
++ [SHIFT K_COLON] > U+011145 
++ [SHIFT K_QUOTE] > U+0022 
++ [SHIFT K_Z] > U+011146 
++ [SHIFT K_X] > U+01112F 
++ [SHIFT K_C] > U+011130 
++ [SHIFT K_V] > U+011123 
++ [SHIFT K_B] > U+011115 
++ [SHIFT K_N] > U+011132 
++ [SHIFT K_M] > U+011106 
++ [SHIFT K_COMMA] > U+003C 
++ [SHIFT K_PERIOD] > U+003E 
++ [SHIFT K_SLASH] > U+011143
