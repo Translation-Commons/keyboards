@@ -10,49 +10,57 @@
   <FileStates>
     <FileState>
       <ID>id_080abf208ff288c4d215036d01103490</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\tc_dogon_tonal_azerty.kpj</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\tc_dogon_tonal_azerty.kpj</FullPath>
     </FileState>
     <FileState>
       <ID>id_53e892b8b41cc4caece1cfd5ef21d6e7</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\LICENSE.md</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\LICENSE.md</FullPath>
     </FileState>
     <FileState>
       <ID>id_ede98e4633e239f933cbfd1f4e1b766c</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\HISTORY.md</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\HISTORY.md</FullPath>
     </FileState>
     <FileState>
       <ID>id_e900a53b50423143d1299cabd117b461</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\x0.kmn</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\x0.kmn</FullPath>
       <Debug>False</Debug>
     </FileState>
     <FileState>
       <ID>id_0730bb7c2e8f9ea2438b52e419dd86c9</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\README.md</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\README.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_45d5cbd87cc1e1dd1b29bff18f8305f8</ID>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\tc_dogon_tonal_azerty.kmp</FullPath>
     </FileState>
     <FileState>
       <ID>id_569537475ae1fb910b35a88778274069</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\tc_dogon_tonal_azerty.kpj.user</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\tc_dogon_tonal_azerty.kpj.user</FullPath>
     </FileState>
     <FileState>
       <ID>id_c72a337e3ebb9eeaff3d60aabdc84ee1</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\tc_dogon_tonal_azerty.keyboard_info</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\tc_dogon_tonal_azerty.keyboard_info</FullPath>
     </FileState>
     <FileState>
       <ID>id_0aa4f6d2e1e2245cc18c37f3150d05d3</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\tc_dogon_tonal_azerty.kpj</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\source\tc_dogon_tonal_azerty.kpj</FullPath>
     </FileState>
     <FileState>
       <ID>id_03e6e997b1c6c93f8a541291349103b4</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\tc_dogon_tonal_azerty_v1_01.kmn</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\source\tc_dogon_tonal_azerty_v1_01.kmn</FullPath>
+      <IDEState>
+        <LayoutDisplay102Key>0</LayoutDisplay102Key>
+        <DebugDefaultFont>1</DebugDefaultFont>
+        <DebugFont>Consolas|-9|   |0</DebugFont>
+        <DisplayMapFont>Consolas|-9|   |0</DisplayMapFont>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
       <Debug>False</Debug>
     </FileState>
     <FileState>
-      <ID>id_d51d3be7d7d131f0cd36c623353f14c1</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\tc_dogon_tonal_azerty.ico</FullPath>
-    </FileState>
-    <FileState>
       <ID>id_6ba8b6eeff5683ba6250d686b5b08a92</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\tc_dogon_tonal_azerty.kmn</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\source\tc_dogon_tonal_azerty.kmn</FullPath>
       <IDEState>
         <LayoutDisplay102Key>0</LayoutDisplay102Key>
         <DebugDefaultFont>1</DebugDefaultFont>
@@ -65,20 +73,20 @@
     </FileState>
     <FileState>
       <ID>id_0e7149ab8c398ac8734edc8f065995eb</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\tc_dogon_tonal_azerty.kvks</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\source\tc_dogon_tonal_azerty.kvks</FullPath>
     </FileState>
     <FileState>
       <ID>id_062face69df282ad61d98eb4133ff9b1</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\tc_dogon_tonal_azerty - v1bak.kmn</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\source\tc_dogon_tonal_azerty - v1bak.kmn</FullPath>
       <Debug>False</Debug>
     </FileState>
     <FileState>
       <ID>id_4e27edfb9f20f275b07d8e6507bfddcd</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\layers.kvks</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\source\layers.kvks</FullPath>
     </FileState>
     <FileState>
       <ID>id_3c39977d5586b64da776318b36fa618f</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\layers.kmn</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\source\layers.kmn</FullPath>
       <IDEState>
         <CodeFont>Consolas|-9|   |0</CodeFont>
         <CharFont>Consolas|-9|   |0</CharFont>
@@ -87,68 +95,66 @@
     </FileState>
     <FileState>
       <ID>id_8da344c4cea6f467013357fe099006f5</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\readme.htm</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\source\readme.htm</FullPath>
     </FileState>
     <FileState>
       <ID>id_356e5d149c1e539356d72698c1e401a6</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\welcome.htm</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\source\welcome.htm</FullPath>
     </FileState>
     <FileState>
       <ID>id_a7244125a1dac20f0ef9ccd011eddc60</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\tc_dogon_tonal_azerty.kps</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_9fbc82e7e56c47ef6ccbc4ae8f5633d1</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\..\build\tc_dogon_tonal_azerty.kmx</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_007e273f9ef2b072ca0003de97011792</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\..\build\tc_dogon_tonal_azerty.kvk</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\source\tc_dogon_tonal_azerty.kps</FullPath>
     </FileState>
     <FileState>
       <ID>id_79e61a653a7e6d87bf4e9e60f05b1aa5</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\dogon_base.png</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\source\dogon_base.png</FullPath>
     </FileState>
     <FileState>
       <ID>id_d30c3e66302722f5f57ed10c5e87f175</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\dogon_shift.png</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_d7b5c1d47a8d01dc7b30872249e767db</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\..\build\tc_dogon_tonal_azerty.js</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_79e61a653a7e6d87bf4e9e60f05b1aa5</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\dogon_base.png</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_d30c3e66302722f5f57ed10c5e87f175</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\dogon_shift.png</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\source\dogon_shift.png</FullPath>
     </FileState>
     <FileState>
       <ID>id_84db92287940d82e537953250da01aaf</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\dogon_layout.png</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\source\dogon_layout.png</FullPath>
     </FileState>
     <FileState>
       <ID>id_d51d3be7d7d131f0cd36c623353f14c1</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\tc_dogon_tonal_azerty.ico</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\source\tc_dogon_tonal_azerty.ico</FullPath>
     </FileState>
     <FileState>
       <ID>id_778948af4fb3a88081ed362613e98007</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\tc_dogon_tonal_azerty.kpj.user</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\source\tc_dogon_tonal_azerty.kpj.user</FullPath>
     </FileState>
     <FileState>
       <ID>id_7d03d4f398fee9e9dcff980cc46c9445</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\dogon.keyman-touch-layout</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\source\dogon.keyman-touch-layout</FullPath>
     </FileState>
     <FileState>
       <ID>id_8bdfd5f71980264044be42aeeccf623a</ID>
-      <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\layers.keyman-touch-layout</FullPath>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\source\layers.keyman-touch-layout</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_9fbc82e7e56c47ef6ccbc4ae8f5633d1</ID>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\source\..\build\tc_dogon_tonal_azerty.kmx</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_007e273f9ef2b072ca0003de97011792</ID>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\source\..\build\tc_dogon_tonal_azerty.kvk</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_d7b5c1d47a8d01dc7b30872249e767db</ID>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\source\..\build\tc_dogon_tonal_azerty.js</FullPath>
     </FileState>
   </FileStates>
   <MRU>
     <File>
       <ID>id_MRU0</ID>
+      <Filename>tc_dogon_tonal_azerty_v1_01.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>\\Mac\Home\GitHub\TC_keyboards\tc_dogon_tonal_azerty\source\tc_dogon_tonal_azerty_v1_01.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
       <Filename>tc_dogon_tonal_azerty.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>C:\Mac\Home\Documents\Keyman Developer\Projects\tc_dogon_tonal_azerty\source\tc_dogon_tonal_azerty.kmn</FullPath>
