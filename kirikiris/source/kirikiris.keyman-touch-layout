@@ -216,12 +216,14 @@
                     "id": "K_BKSLASH"
                   },
                   {
-                    "text": ";",
-                    "id": "U_003B"
+                    "text": ":",
+                    "id": "K_COLON",
+                    "layer": "shift"
                   },
                   {
-                    "text": ":",
-                    "id": "U_003A"
+                    "text": ";",
+                    "id": "K_COLON",
+                    "layer": "default"
                   }
                 ]
               },
@@ -653,6 +655,11 @@
                 "id": "K_COLON",
                 "text": ":",
                 "layer": "shift"
+              },
+              {
+                "id": "K_COLON",
+                "text": ";",
+                "layer": "default"
               },
               {
                 "id": "K_BKSP",
