@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <System>
+    <KeymanDeveloperVersion>18.0.241.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram></ExecuteProgram>
+    <MSIFileName></MSIFileName>
+    <MSIOptions></MSIOptions>
+  </Options>
+  <StartMenu>
+    <Folder></Folder>
+    <Items/>
+  </StartMenu>
+  <Info>
+    <Version URL="">1.0</Version>
+    <Name URL="">Chatino</Name>
+    <Author URL="mailto:cwcornelius@gmail.com">Craig Cornelius, Emiliana Cruz</Author>
+    <WebSite URL="https://languagetools-153419.appspot.com/omq/">https://languagetools-153419.appspot.com/omq/</WebSite>
+    <Copyright URL="">This is freely available without copyright</Copyright>
+  </Info>
+  <Files>
+    <File>
+      <Name>welcome.htm</Name>
+      <Description>File welcome.htm</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>readme.htm</Name>
+      <Description>File readme.htm</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>..\README.md</Name>
+      <Description>File README.md</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.md</FileType>
+    </File>
+    <File>
+      <Name>..\HISTORY.md</Name>
+      <Description>File HISTORY.md</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.md</FileType>
+    </File>
+    <File>
+      <Name>..\LICENSE.md</Name>
+      <Description>File LICENSE.md</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.md</FileType>
+    </File>
+    <File>
+      <Name>..\build\chatino_mobile.js</Name>
+      <Description>File chatino_mobile.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>..\build\chatino_dk.kmx</Name>
+      <Description>Keyboard Chatino DK</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>..\build\chatino.kvk</Name>
+      <Description>File chatino.kvk</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kvk</FileType>
+    </File>
+    <File>
+      <Name>..\build\chatino.kmx</Name>
+      <Description>Keyboard Chatino</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>chatino_dk.kvk</Name>
+      <Description>File chatino_dk.kvk</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kvk</FileType>
+    </File>
+    <File>
+      <Name>chatino_dk.js</Name>
+      <Description>File chatino_dk.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>chatino.js</Name>
+      <Description>File chatino.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <ID>chatino_mobile</ID>
+      <Languages>
+        <Language ID="ctz">Zacatepec Chatino</Language>
+      </Languages>
+    </Keyboard>
+    <Keyboard>
+      <ID>chatino_dk</ID>
+      <Languages>
+        <Language ID="ctz">Zacatepec Chatino</Language>
+      </Languages>
+    </Keyboard>
+    <Keyboard>
+      <ID>chatino</ID>
+      <Languages>
+        <Language ID="ctz">Zacatepec Chatino</Language>
+      </Languages>
+    </Keyboard>
+  </Keyboards>
+  <Strings/>
+</Package>
