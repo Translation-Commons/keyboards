@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package>
   <System>
-    <KeymanDeveloperVersion>17.0.330.0</KeymanDeveloperVersion>
+    <KeymanDeveloperVersion>18.0.241.0</KeymanDeveloperVersion>
     <FileVersion>7.0</FileVersion>
   </System>
   <Options>
     <ExecuteProgram></ExecuteProgram>
     <ReadMeFile>readme.htm</ReadMeFile>
     <LicenseFile>..\LICENSE.md</LicenseFile>
+    <WelcomeFile>welcome.htm</WelcomeFile>
     <MSIFileName></MSIFileName>
     <MSIOptions></MSIOptions>
     <FollowKeyboardVersion/>
@@ -18,11 +19,12 @@
   </StartMenu>
   <Info>
     <Name URL="">kirikiris</Name>
-    <Copyright URL="">Copyright © Michael Wynne</Copyright>
-    <Author URL="">Michael Wynne</Author>
+    <Copyright URL="">© Wichita Tribal History Center, Translation Commons</Copyright>
+    <Author URL="mailto:k-boards@translationcommons.org">Michael Wynne</Author>
     <Description URL="">kirikirʔi:s (Wichita)
 Spoken in Anadarko, Oklahoma</Description>
     <Version URL=""></Version>
+    <WebSite URL="https://keyman.com/keyboards/kirikiris">https://keyman.com/keyboards/kirikiris</WebSite>
   </Info>
   <Files>
     <File>
@@ -64,9 +66,7 @@ Spoken in Anadarko, Oklahoma</Description>
   </Files>
   <Keyboards>
     <Keyboard>
-      <Name>kirikiris</Name>
       <ID>kirikiris</ID>
-      <Version>1.0</Version>
       <Languages>
         <Language ID="wic">Wichita</Language>
       </Languages>
