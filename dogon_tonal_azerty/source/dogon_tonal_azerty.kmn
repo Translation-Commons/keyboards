@@ -1,10 +1,13 @@
-﻿store(&Version) "10.0"
-store(&NAME) 'TC Dogon Tonal AZERTY'
-store(&TARGETS) 'any windows macosx iphone ipad androidphone androidtablet'
-store(&VISUALKEYBOARD) 'tc_dogon_tonal_azerty.kvks'
-store(&BITMAP) 'tc_dogon_tonal_azerty.ico'
-store(&COPYRIGHT) '©2023 Tex Texin, Translation Commons'
-store(&KEYBOARDVERSION) '1.02'
+﻿c dogon_tonal_azerty generated from template at 2026-01-07 15:39:35
+c with name "Dogon Tonal Azerty"
+store(&VERSION) '10.0'
+store(&NAME) 'Dogon Tonal Azerty'
+store(&COPYRIGHT) 'Copyright © 2023 Tex Texin, Translation Commons'
+store(&KEYBOARDVERSION) '1.0.2'
+store(&TARGETS) 'any'
+store(&BITMAP) 'dogon_tonal_azerty.ico'
+store(&VISUALKEYBOARD) 'dogon_tonal_azerty.kvks'
+store(&LAYOUTFILE) 'dogon_tonal_azerty.keyman-touch-layout'
 
 begin Unicode > use(main)
 store(&CasedKeys) [K_A]..[K_Z]
@@ -13,7 +16,7 @@ store(m_grave) U+300
 store(m_hat) U+302
 store(m_v) U+30C
 store(m_macron) U+304
-store(m_bslash) U+005C
+store(bslash) U+005C
 store(closedletters) "eEoOnN"
 store(closedlettersaccented) "eEoO"
 store(openletters) "ɛƐɔƆɲƝ"
@@ -31,38 +34,52 @@ c keys remapped q, a, w, z  $=> € ₤ ¥
 '₤' + [SHIFT K_4] > '¥'
 "€" + [SHIFT K_4] > '₤'
 
+c deadkeys
++ "'" > dk(d_acute)
+dk(d_acute) + "'" > "'"
+
++ "`" > dk(d_grave)
+dk(d_grave) + "`" > "`"
+
++ "^" > dk(d_hat)
+dk(d_hat) + "^" > "^"
+
++ $bslash > dk(d_bslash)
+dk(d_bslash) + $bslash > $bslash
+
++ "_" > dk(d_macron)
+dk(d_macron) + "_" > "_"
+
++ "]" > dk(d_open)
+dk(d_open) + "]" > "]"
+
++ "[" > dk(d_close)
+dk(d_close) + "[" > "["
+
 c map closed letters to open letters
-"]" + any(closedletters) > index(openletters,2)
-"']" + any(closedlettersaccented)  > index(openletters,3) $m_acute
-"`]" + any(closedlettersaccented) > index(openletters,3) $m_grave
-"^]" + any(closedlettersaccented) > index(openletters,3) $m_hat
-$m_bslash "]" + any(closedlettersaccented) > index(openletters,3) $m_v
-"_]" + any(closedlettersaccented) > index(openletters,3) $m_macron
+dk(d_open) + any(closedletters) > index(openletters,2)
+dk(d_acute) dk(d_open) + any(closedlettersaccented) > index(openletters,3) $m_acute
+dk(d_grave) dk(d_open) + any(closedlettersaccented) > index(openletters,3) $m_grave
+dk(d_hat)   dk(d_open) + any(closedlettersaccented) > index(openletters,3) $m_hat
+dk(d_bslash) dk(d_open) + any(closedlettersaccented) > index(openletters,3) $m_v
+dk(d_macron) dk(d_open) + any(closedlettersaccented) > index(openletters,3) $m_macron
 
 
 c diacritics
-"'" + any(vowelkeys) > index(vowel,2) $m_acute
-"`" + any(vowelkeys) > index(vowel,2) $m_grave
-"^" + any(vowelkeys) > index(vowel,2) $m_hat
-$m_bslash + any(vowelkeys) > index(vowel,2) $m_v
-"_" + any(vowelkeys) > index(vowel,2) $m_macron
+dk(d_acute) + any(vowelkeys) > index(vowel,2) $m_acute
+dk(d_grave) + any(vowelkeys) > index(vowel,2) $m_grave
+dk(d_hat)   + any(vowelkeys) > index(vowel,2) $m_hat
+dk(d_bslash) + any(vowelkeys) > index(vowel,2) $m_v
+dk(d_macron) + any(vowelkeys) > index(vowel,2) $m_macron
 
 ".." + "." > "…"	c ellipses
 "<" + "<" > U+00AB        c Angled quotes - guillemets
 ">" + ">" > U+00BB
 
-"[" + "N" > "Ŋ"		c N Ŋ
-"[" + "n" > "ŋ"
-"[" + "o" > "°"		c degree
+dk(d_close) + "N" > "Ŋ"		c N Ŋ
+dk(d_close) + "n" > "ŋ"
+dk(d_close) + "o" > "°"		c degree
 
-c Rules to produce the modifier characters itself (type it twice)
-"'" + "'" > "'"
-"`" + "`" > "`"
-"^" + "^" > "^"
-"_" + "_" > "_"
-$m_bslash + $m_bslash > $m_bslash
-"]" + "]" > "]"
-"[" + "[" > "["
 
 
 + [K_SLASH] > '/'
