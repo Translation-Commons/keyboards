@@ -1,0 +1,40 @@
+﻿c This Chatino language keyboard uses dead keys to select tones and other diacritics:
+c   key ; for tone deadkey + letters a-m
+c   key ' for grave accent
+c   key ~ for for tilde
+c   key : for diaresis
+store(&Version) "9.0"
+store(&Name) "Chatino DK"
+
+store(&TARGETS) 'any windows macosx linux web'
+store(&MESSAGE) 'Chatino keyboard with dead key for tones, accents, etc.'
+store(&MnemonicLayout) "1"
+
+begin Unicode > use(main)
+
+group(main) using keys
+
+store(aTOm) "abcdefghijklmABCDEFGHIJKLM"
+store(superscripts) U+1d2c U+1d2e U+1d9c U+1d30 U+1d31 U+1da0 U+1d33 U+1d34 U+1d35 U+1d36 U+1d37 U+1d38 U+1d39 U+1d43 U+1d47 U+1d9c U+1d48 U+1D49 U+1da0 U+1d4d U+002b0 U+2071 U+02b2 U+1D4F U+02e1 U+1d50
+store(vowels) "aeiouAEIOU"
+store(acutevowels) U+00E1 U+00E9 U+00ED U+00F3 U+00FA   U+00C1 U+00C9 U+00CD U+00D3 U+00DA
+
+
++ "'" > deadkey(quote)
++ ";" > deadkey(semicolon)
++ ":" > deadkey(colon)
++ "~" > deadkey(tilde)
+
+deadkey(semicolon) + any(aTOm) > index(superscripts, 2 )
+deadkey(quote) + any(vowels) > index(acutevowels, 2 )
+deadkey(colon) + "u" > U+00fc
+deadkey(colon) + "U" > U+00dc
+deadkey(quote) + "n" > U+00f1
+deadkey(quote) + "N" > U+00d1
+deadkey(tilde) + "n" > U+00f1
+deadkey(tilde) + "N" > U+00d1
+
+dk(quote) + "'" > "'"
+dk(semicolon) + ";" > ";"
+dk(colon) + ":" > ":"
+dk(tilde) + "~" > "~"

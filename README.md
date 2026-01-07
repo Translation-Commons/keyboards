@@ -22,4 +22,4 @@ The description may also provide supplemental information such as keyboard suppo
 
 # Final Keyboards
 Find a list of final and preview keyboards at:
-https://translationcommons.org/keyboard-creation-project/published-keyboards/
+https://translationcommons.org/keyboard-creation-project/published-keyboards/ 
