@@ -1,0 +1,179 @@
+﻿store(&Version) "10.0"
+store(&NAME) 'TC Dogon Tonal AZERTY'
+store(&TARGETS) 'windows'
+store(&VISUALKEYBOARD) 'tc_dogon_tonal_azerty.kvks'
+store(&BITMAP) 'tc_dogon_tonal_azerty.ico'
+store(&COPYRIGHT) '© Tex Texin, Translation Commons'
+store(&KEYBOARDVERSION) '1.0'
+
+store(&LAYOUTFILE) 'dogon.keyman-touch-layout'
+
+begin Unicode > use(main)
+store(&CasedKeys) [K_A]..[K_Z]
+store(m_acute) U+0301
+store(m_agrave) U+300
+store(m_hat) U+302
+store(m_v) U+30C
+store(m_macron) U+304
+
+
+group(main) using keys
+
+"]" + "e" > "ɛ"         c Open E
+"]" + "E" > "Ɛ"
+"]" + "o" > "ɔ"         c Open O
+"]" + "O" > "Ɔ"
+
+c store(vowel) "a" "i" "e" "ɛ" "o" "ɔ" "u" "A" "I" "E" U+0190 "O" U+0186 "U"
+store(vowel) "a" "i" "e" "o" "u" "A" "I" "E"  "O" "U"
+c diacritics
+"'" + any(vowel) > index(vowel,2) U+0301
+"`" + any(vowel) > index(vowel,2) U+0300
+"^" + any(vowel) > index(vowel,2) U+0302
+U+005C + any(vowel) > index(vowel,2) U+030C
+"_" + any(vowel) > index(vowel,2) U+0304
+
+"']" + "o"  > "ɔ"  U+0301
+"`]" + "o" > "ɔ" U+0300
+"^]" + "o" > "ɔ" U+0302
+U+005C "]" + "o" > "ɔ" U+030C
+"_]" + "o" > "ɔ" U+0304
+
+"']" + "e"  > "ɛ"  U+0301
+"`]" + "e" > "ɛ" U+0300
+"^]" + "e" > "ɛ" U+0302
+U+005C "]" + "e" > "ɛ" U+030C
+"_]" + "e" > "ɛ" U+0304
+
+
+"']" + "O"  > U+0186  U+0301
+"`]" + "O" > U+0186 U+0300
+"^]" + "O" > U+0186 U+0302
+U+005C "]" + "O" > U+0186 U+030C
+"_]" + "O" > U+0186 U+0304
+
+"']" + "E"  > U+0190  U+0301
+"`]" + "E" > U+0190 U+0300
+"^]" + "E" > U+0190 U+0302
+U+005C "]" + "E" > U+0190 U+030C
+"_]" + "E" > U+0190 U+0304
+
+".." + "." > "…"	c ellipses
+"<" + "<" > U+00AB        c Angled quotes
+">" + ">" > U+00BB
+
+"]" + "N" > "Ɲ"		c N Ɲ
+"]" + "n" > "ɲ"
+"[" + "N" > "Ŋ"		c N Ŋ
+"[" + "n" > "ŋ"
+"[" + "o" > "°"		c degree
+
+c Rules for the modifier characters itself (type it twice)
+"'" + "'" > "'"
+"`" + "`" > "`"
+"^" + "^" > "^"
+"_" + "_" > "_"
+U+005C + U+005C > U+005C
+"]" + "]" > "]"
+"[" + "[" > "["
+
+
++ [K_SLASH] > '/'
++ [K_PERIOD] > '.'
++ [K_COMMA] > ','
++ [K_QUOTE] > "'"
++ [K_COLON] > ';'
++ [K_BKSLASH] > '\'
++ [K_RBRKT] > ']'
++ [K_LBRKT] > '['
++ [K_EQUAL] > '='
++ [K_HYPHEN] > '-'
++ [K_BKQUOTE] > '`'
++ [SHIFT K_BKQUOTE] > '~'
++ [SHIFT K_SLASH] > '?'
++ [SHIFT K_PERIOD] > '>'
++ [SHIFT K_COMMA] > '<'
++ [SHIFT K_QUOTE] > '"'
++ [SHIFT K_COLON] > ':'
++ [SHIFT K_BKSLASH] > '|'
++ [SHIFT K_RBRKT] > '}'
++ [SHIFT K_LBRKT] > '{'
++ [SHIFT K_EQUAL] > '+'
++ [SHIFT K_HYPHEN] > '_'
++ [shift K_0] > ')'
++ [shift K_1] > '!'
++ [SHIFT K_2] > '@'
++ [SHIFT K_3] > '#'
++ [SHIFT K_4] > '€'
++ [SHIFT K_5] > '%'
++ [SHIFT K_6] > '^'
++ [SHIFT K_7] > '&'
++ [SHIFT K_8] > '*'
++ [SHIFT K_9] > '('
++ [K_0] > '0'
++ [K_1] > '1'
++ [K_2] > '2'
++ [K_3] > '3'
++ [K_4] > '4'
++ [K_5] > '5'
++ [K_6] > '6'
++ [K_7] > '7'
++ [K_8] > '8'
++ [K_9] > '9'
++ [K_A] > 'q'
++ [K_b] > 'b'
++ [K_c] > 'c'
++ [K_d] > 'd'
++ [K_e] > 'e'
++ [K_f] > 'f'
++ [K_g] > 'g'
++ [K_h] > 'h'
++ [K_i] > 'i'
++ [K_j] > 'j'
++ [K_k] > 'k'
++ [K_l] > 'l'
++ [K_M] > 'm'
++ [K_n] > 'n'
++ [K_o] > 'o'
++ [K_p] > 'p'
++ [K_Q] > 'a'
++ [K_r] > 'r'
++ [K_s] > 's'
++ [K_t] > 't'
++ [K_u] > 'u'
++ [K_v] > 'v'
++ [K_W] > 'z'
++ [K_x] > 'x'
++ [K_y] > 'y'
++ [K_Z] > 'w'
++ [SHIFT K_A] > 'Q'
++ [SHIFT K_B]>'B'
++ [SHIFT K_C]>'C'
++ [SHIFT K_D]>'D'
++ [SHIFT K_E]>'E'
++ [SHIFT K_F]>'F'
++ [SHIFT K_G]>'J'
++ [SHIFT K_H]>'H'
++ [SHIFT K_I]>'I'
++ [SHIFT K_J]>'J'
++ [SHIFT K_K]>'K'
++ [SHIFT K_L]>'L'
++ [SHIFT K_M] > 'M'
++ [SHIFT K_N]>'N'
++ [SHIFT K_O]>'O'
++ [SHIFT K_P]>'P'
++ [SHIFT K_Q] > 'A'
++ [SHIFT K_R]>'R'
++ [SHIFT K_S]>'S'
++ [SHIFT K_T]>'T'
++ [SHIFT K_U]>'U'
++ [SHIFT K_V]>'V'
++ [SHIFT K_W] > 'Z'
++ [SHIFT K_X]>'X'
++ [SHIFT K_Y]>'Y'
++ [SHIFT K_Z] > 'W'
+'₤' + [SHIFT K_4] > '¥'
+"€" + [SHIFT K_4] > '₤'
+
+
+

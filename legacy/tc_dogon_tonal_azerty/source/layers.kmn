@@ -1,0 +1,9 @@
+﻿store(&NAME) 'layers'
+store(&TARGETS) 'any windows macosx androidphone mobile'
+store(&COPYRIGHT) 'tex'
+store(&KEYBOARDVERSION) '1.0'
+store(&VISUALKEYBOARD) 'layers.kvks'
+store(&LAYOUTFILE) 'layers.keyman-touch-layout'
+begin Unicode > use(main)
+
+group(main) using keys
