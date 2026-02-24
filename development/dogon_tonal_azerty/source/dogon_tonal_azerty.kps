@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package>
   <System>
-    <KeymanDeveloperVersion>18.0.245.0</KeymanDeveloperVersion>
+    <KeymanDeveloperVersion>18.0.246.0</KeymanDeveloperVersion>
     <FileVersion>7.0</FileVersion>
   </System>
   <Options>
@@ -11,6 +11,7 @@
     <WelcomeFile>welcome.htm</WelcomeFile>
     <MSIFileName></MSIFileName>
     <MSIOptions></MSIOptions>
+    <FollowKeyboardVersion/>
   </Options>
   <StartMenu>
     <Folder></Folder>
@@ -18,10 +19,10 @@
   </StartMenu>
   <Info>
     <Name URL="">Dogon Tonal Azerty</Name>
-    <Copyright URL="">Copyright © Tex Texin, Translation Commons</Copyright>
-    <Author URL="mailto:textexin@translationcommons.org">Tex Texin, Translation Commons</Author>
+    <Copyright URL="">Copyright © Tex Texin, Michael Wynne, Translation Commons</Copyright>
+    <Author URL="mailto:textexin@translationcommons.org">Tex Texin, Michael Wynne, Translation Commons</Author>
     <Description URL="">Dogon tonal AZERTY keyboard. Developed by Translation Commons.</Description>
-    <Version URL="">1.0.2</Version>
+    <Version URL=""></Version>
     <WebSite URL="https://translationcommons.org/">https://translationcommons.org/</WebSite>
   </Info>
   <Files>
@@ -62,22 +63,22 @@
       <FileType>.md</FileType>
     </File>
     <File>
-      <Name>dogon_base.png</Name>
-      <Description>File dogon_base.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
-    <File>
-      <Name>dogon_shift.png</Name>
-      <Description>File dogon_shift.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
-    <File>
       <Name>dogon_tonal_azerty.ico</Name>
       <Description>File dogon_tonal_azerty.ico</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.ico</FileType>
+    </File>
+    <File>
+      <Name>dogon_baseU_.png</Name>
+      <Description>File dogon_baseU_.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>dogon_baseU_S.png</Name>
+      <Description>File dogon_baseU_S.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
     </File>
   </Files>
   <Keyboards>
