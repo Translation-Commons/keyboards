@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<visualkeyboard>
+  <header>
+    <version>10.0</version>
+    <kbdname>tangsa_lakhum</kbdname>
+    <flags/>
+  </header>
+  <encoding name="unicode" fontname="Tangsa Lakhum Unicode" fontsize="12">
+    <layer shift="S">
+      <key vkey="K_1">!</key>
+      <key vkey="K_QUOTE">"</key>
+      <key vkey="K_3">#</key>
+      <key vkey="K_4">$</key>
+      <key vkey="K_5">%</key>
+      <key vkey="K_7">&amp;</key>
+      <key vkey="K_9">(</key>
+      <key vkey="K_0">)</key>
+      <key vkey="K_8">*</key>
+      <key vkey="K_EQUAL">+</key>
+      <key vkey="K_COLON">:</key>
+      <key vkey="K_COMMA">&lt;</key>
+      <key vkey="K_PERIOD">&gt;</key>
+      <key vkey="K_SLASH">?</key>
+      <key vkey="K_2">@</key>
+      <key vkey="K_A">𖩵</key>
+      <key vkey="K_B">𖪦</key>
+      <key vkey="K_C">𖪽</key>
+      <key vkey="K_D">𖪼</key>
+      <key vkey="K_E">𖩽</key>
+      <key vkey="K_F">𖪐</key>
+      <key vkey="K_G">𖪣</key>
+      <key vkey="K_H">𖪷</key>
+      <key vkey="K_I">𖪁</key>
+      <key vkey="K_J">𖪍</key>
+      <key vkey="K_K">𖪡</key>
+      <key vkey="K_L">𖪲</key>
+      <key vkey="K_M">𖪳</key>
+      <key vkey="K_N">𖪨</key>
+      <key vkey="K_O">𖩱</key>
+      <key vkey="K_P">𖪩</key>
+      <key vkey="K_Q">𖪔</key>
+      <key vkey="K_R">𖪝</key>
+      <key vkey="K_S">𖪴</key>
+      <key vkey="K_T">𖪯</key>
+      <key vkey="K_U">𖪅</key>
+      <key vkey="K_V">𖩹</key>
+      <key vkey="K_W">𖪉</key>
+      <key vkey="K_X">𖪺</key>
+      <key vkey="K_Y">𖪾</key>
+      <key vkey="K_Z">𖪙</key>
+      <key vkey="K_6">^</key>
+      <key vkey="K_HYPHEN">_</key>
+      <key vkey="K_LBRKT">{</key>
+      <key vkey="K_BKSLASH">|</key>
+      <key vkey="K_RBRKT">}</key>
+      <key vkey="K_BKQUOTE">~</key>
+    </layer>
+    <layer shift="">
+      <key vkey="K_QUOTE">'</key>
+      <key vkey="K_COMMA">,</key>
+      <key vkey="K_HYPHEN">-</key>
+      <key vkey="K_PERIOD">.</key>
+      <key vkey="K_SLASH">/</key>
+      <key vkey="K_0">𖫀</key>
+      <key vkey="K_1">𖫁</key>
+      <key vkey="K_2">𖫂</key>
+      <key vkey="K_3">𖫃</key>
+      <key vkey="K_4">𖫄</key>
+      <key vkey="K_5">𖫅</key>
+      <key vkey="K_6">𖫆</key>
+      <key vkey="K_7">𖫇</key>
+      <key vkey="K_8">𖫈</key>
+      <key vkey="K_9">𖫉</key>
+      <key vkey="K_COLON">;</key>
+      <key vkey="K_EQUAL">=</key>
+      <key vkey="K_BKSLASH">\</key>
+      <key vkey="K_RBRKT">]</key>
+      <key vkey="K_BKQUOTE">`</key>
+      <key vkey="K_A">𖩴</key>
+      <key vkey="K_B">𖪪</key>
+      <key vkey="K_C">𖪵</key>
+      <key vkey="K_D">𖪱</key>
+      <key vkey="K_E">𖩼</key>
+      <key vkey="K_F">𖪻</key>
+      <key vkey="K_G">𖪢</key>
+      <key vkey="K_H">𖪭</key>
+      <key vkey="K_I">𖪀</key>
+      <key vkey="K_J">𖪌</key>
+      <key vkey="K_K">𖪠</key>
+      <key vkey="K_L">𖪮</key>
+      <key vkey="K_M">𖪫</key>
+      <key vkey="K_N">𖪬</key>
+      <key vkey="K_O">𖩰</key>
+      <key vkey="K_P">𖪧</key>
+      <key vkey="K_Q">𖪕</key>
+      <key vkey="K_R">𖪜</key>
+      <key vkey="K_S">𖪤</key>
+      <key vkey="K_T">𖪰</key>
+      <key vkey="K_U">𖪄</key>
+      <key vkey="K_V">𖩸</key>
+      <key vkey="K_W">𖪈</key>
+      <key vkey="K_X">𖪶</key>
+      <key vkey="K_Y">𖪥</key>
+      <key vkey="K_Z">𖪘</key>
+    </layer>
+    <layer shift="C">
+      <key vkey="K_QUOTE">'</key>
+      <key vkey="K_COMMA">,</key>
+      <key vkey="K_PERIOD">.</key>
+      <key vkey="K_SLASH">/</key>
+      <key vkey="K_0">0</key>
+      <key vkey="K_1">1</key>
+      <key vkey="K_2">2</key>
+      <key vkey="K_3">3</key>
+      <key vkey="K_4">4</key>
+      <key vkey="K_5">5</key>
+      <key vkey="K_6">6</key>
+      <key vkey="K_7">7</key>
+      <key vkey="K_8">8</key>
+      <key vkey="K_9">9</key>
+      <key vkey="K_COLON">;</key>
+      <key vkey="K_LBRKT">[</key>
+      <key vkey="K_BKSLASH">^</key>
+      <key vkey="K_RBRKT">]</key>
+      <key vkey="K_BKQUOTE">`</key>
+      <key vkey="K_V">𖩺</key>
+      <key vkey="K_X">𖪑</key>
+      <key vkey="K_Z">𖪚</key>
+    </layer>
+  </encoding>
+</visualkeyboard>
