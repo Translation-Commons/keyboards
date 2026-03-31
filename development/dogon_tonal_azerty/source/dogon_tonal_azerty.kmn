@@ -2,8 +2,8 @@
 c with name "Dogon Tonal Azerty"
 store(&VERSION) '10.0'
 store(&NAME) 'Dogon Tonal Azerty'
-store(&COPYRIGHT) 'Copyright © 2023 Tex Texin, Translation Commons'
-store(&KEYBOARDVERSION) '1.0.2'
+store(&COPYRIGHT) 'Copyright © 2023 Tex Texin, Michael Wynne, Translation Commons'
+store(&KEYBOARDVERSION) '1.0.3'
 store(&TARGETS) 'any'
 store(&BITMAP) 'dogon_tonal_azerty.ico'
 store(&VISUALKEYBOARD) 'dogon_tonal_azerty.kvks'
@@ -77,7 +77,7 @@ dk(d_macron) + any(vowelkeys) > index(vowel,2) $m_macron
 ">" + ">" > U+00BB
 
 dk(d_close) + "N" > "Ŋ"		c N Ŋ
-dk(d_close) + "n" > "ŋ"
+dk(d_close) + "n" > "ŋ"     c n ŋ
 dk(d_close) + "o" > "°"		c degree
 
 
