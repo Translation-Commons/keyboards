@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <System>
+    <KeymanDeveloperVersion>18.0.245.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram></ExecuteProgram>
+    <ReadMeFile>readme.htm</ReadMeFile>
+    <WelcomeFile>welcome.htm</WelcomeFile>
+    <MSIFileName></MSIFileName>
+    <MSIOptions></MSIOptions>
+    <FollowKeyboardVersion/>
+  </Options>
+  <StartMenu>
+    <Folder></Folder>
+    <Items/>
+  </StartMenu>
+  <Info>
+    <Name URL="">Tangsa Lakhum</Name>
+    <Version URL=""></Version>
+    <Author URL="mailto:cwcornelius@gmail.com">Craig Cornelius</Author>
+    <Description URL="">Laz Latin keyboard</Description>
+    <Copyright URL="">© (2021) Craig Cornelius</Copyright>
+  </Info>
+  <Files>
+    <File>
+      <Name>readme.htm</Name>
+      <Description>File readme.htm</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>TangsaLakhumUnicode.ttf</Name>
+      <Description>Font Tangsa Lakhum Unicode</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>welcome.htm</Name>
+      <Description>File welcome.htm</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>..\build\tangsa_lakhum.js</Name>
+      <Description>File tangsa_lakhum.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>..\build\tangsa_lakhum.kvk</Name>
+      <Description>File tangsa_lakhum.kvk</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kvk</FileType>
+    </File>
+    <File>
+      <Name>..\build\tangsa_lakhum.kmx</Name>
+      <Description>Keyboard Tangsa Lakhum</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <ID>tangsa_lakhum</ID>
+      <Languages>
+        <Language ID="nst-Lakm">Tase Naga (Lakm)</Language>
+      </Languages>
+    </Keyboard>
+  </Keyboards>
+  <Strings/>
+</Package>
