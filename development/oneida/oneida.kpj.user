@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProjectUser>
+  <ViewState>
+    <tab>1</tab>
+    <showhelp>1</showhelp>
+    <path>C:\Users\cwcor\Documents\Keyman Developer\KeyMan Dev1\oneida\oneida.kpj</path>
+  </ViewState>
+  <FileStates>
+    <FileState>
+      <ID>id_82f5060ee829e8b4981ebdc4e19e60ab</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\KeyMan Dev1\oneida\source\oneida.kmn</FullPath>
+      <IDEState>
+        <LayoutDisplay102Key>0</LayoutDisplay102Key>
+        <DebugDefaultFont>1</DebugDefaultFont>
+        <DebugFont>Consolas|-9|   |0</DebugFont>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+      <Debug>False</Debug>
+    </FileState>
+    <FileState>
+      <ID>id_a26d9a8f9b84fc2836be2d87fd71e9b8</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\KeyMan Dev1\oneida\source\oneida.kps</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_ede98e4633e239f933cbfd1f4e1b766c</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\KeyMan Dev1\oneida\HISTORY.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_53e892b8b41cc4caece1cfd5ef21d6e7</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\KeyMan Dev1\oneida\LICENSE.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_0730bb7c2e8f9ea2438b52e419dd86c9</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\KeyMan Dev1\oneida\README.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_4e624d23eb4abb412bb0d54ee54c85ad</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\KeyMan Dev1\oneida\oneida.keyboard_info</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_44f50502cfb765778c42c1c7da76c36b</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\KeyMan Dev1\oneida\source\..\build\oneida.kmx</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_284297099ccda08d135946c8460f9218</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\KeyMan Dev1\oneida\source\..\build\oneida.js</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_10134c6e2655e75f451115a250fb3b89</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\KeyMan Dev1\oneida\source\..\build\oneida.kvk</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_356e5d149c1e539356d72698c1e401a6</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\KeyMan Dev1\oneida\source\welcome.htm</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_8da344c4cea6f467013357fe099006f5</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\KeyMan Dev1\oneida\source\readme.htm</FullPath>
+    </FileState>
+  </FileStates>
+  <MRU>
+    <File>
+      <ID>id_MRU0</ID>
+      <Filename>rhade.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\Projects\Rhade\rhade.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
+      <Filename>oneida.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\KeyMan Dev1\oneida\source\oneida.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU2</ID>
+      <Filename>oneida.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\Users\cwcor\KeyMan Developer\oneida\source\oneida.kmn</FullPath>
+    </File>
+  </MRU>
+</KeymanDeveloperProjectUser>

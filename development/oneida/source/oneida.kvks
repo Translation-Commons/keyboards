@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<visualkeyboard>
+  <header>
+    <version>10.0</version>
+    <kbdname>oneida</kbdname>
+    <flags/>
+  </header>
+  <encoding name="unicode" fontname="Arial" fontsize="-12">
+    <layer shift="C">
+      <key vkey="K_QUOTE">]</key>
+      <key vkey="K_COMMA">&gt;</key>
+      <key vkey="K_PERIOD">&gt;</key>
+      <key vkey="K_COLON">[</key>
+      <key vkey="K_LBRKT">{</key>
+      <key vkey="K_BKSLASH">|</key>
+      <key vkey="K_RBRKT">}</key>
+    </layer>
+    <layer shift="">
+      <key vkey="K_QUOTE">'</key>
+      <key vkey="K_COMMA">ʌ</key>
+      <key vkey="K_SLASH">Ɂ</key>
+      <key vkey="K_LBRKT">_</key>
+      <key vkey="K_RBRKT">ɂ</key>
+      <key vkey="K_BKQUOTE">́</key>
+    </layer>
+    <layer shift="S">
+      <key vkey="K_COMMA">Ʌ</key>
+      <key vkey="K_LBRKT">-</key>
+      <key vkey="K_RBRKT">ˀ</key>
+    </layer>
+  </encoding>
+</visualkeyboard>

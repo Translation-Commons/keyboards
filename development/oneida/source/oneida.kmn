@@ -1,0 +1,29 @@
+﻿c oneida generated from template at 2021-10-25 21:13:39
+c with name "Oneida"
+store(&VERSION) '10.0'
+store(&NAME) 'Oneida'
+store(&COPYRIGHT) '©'
+store(&KEYBOARDVERSION) '1.0'
+store(&TARGETS) 'any'
+store(&VISUALKEYBOARD) 'oneida.kvks'
+store(&LAYOUTFILE) 'oneida.keyman-touch-layout'
+
+begin Unicode > use(main)
+
+group(main) using keys
++ [CTRL K_BKSLASH] > '|'
++ [CTRL K_RBRKT] > '}'
++ [CTRL K_LBRKT] > '{'
++ [CTRL K_QUOTE] > ']'
++ [CTRL K_COLON] > '['
++ [CTRL K_PERIOD] > '>'
++ [CTRL K_COMMA] > '>'
++ [K_QUOTE] > U+0027
++ [SHIFT K_RBRKT] > 'ˀ'
++ [SHIFT K_LBRKT] > '-'
++ [SHIFT K_COMMA] > 'Ʌ'
++ [K_SLASH] > 'Ɂ'
++ [K_COMMA] > 'ʌ'
++ [K_LBRKT] > '_'
++ [K_RBRKT] > 'ɂ'
++ [K_BKQUOTE] > '́'
