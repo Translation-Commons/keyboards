@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProjectUser>
+  <ViewState>
+    <tab>3</tab>
+    <showhelp>1</showhelp>
+    <path>C:\Users\cwcor\Documents\Keyman Developer\Projects\tai_phake\tai_phake.kpj</path>
+    <file ID="id_d755da4a99cf7091fdbcab974c9ac44c" Expanded="1"/>
+  </ViewState>
+  <FileStates>
+    <FileState>
+      <ID>id_ede98e4633e239f933cbfd1f4e1b766c</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\Projects\tai_phake\HISTORY.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_53e892b8b41cc4caece1cfd5ef21d6e7</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\Projects\tai_phake\LICENSE.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_0730bb7c2e8f9ea2438b52e419dd86c9</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\Projects\tai_phake\README.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_c39bc52dbffb3b3d5ccc8bd3a88c0678</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\Projects\tai_phake\tai_phake.kpj</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_201e4f77d4e2aa8adc2f55d5d07711d6</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\Projects\tai_phake\tai_phake.kpj.user</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_8da344c4cea6f467013357fe099006f5</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\Projects\tai_phake\source\readme.htm</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_111a8a803874dcb1fdfaf3786fd1c502</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\Projects\tai_phake\source\tai_phake.ico</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_f5d067770d71eec09dd57916d6dbb524</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\Projects\tai_phake\source\tai_phake.keyman-touch-layout</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_a00c358ca8619e0302e43938aed7167e</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\Projects\tai_phake\source\tai_phake.kmn</FullPath>
+      <IDEState>
+        <LayoutDisplay102Key>0</LayoutDisplay102Key>
+        <DebugDefaultFont>1</DebugDefaultFont>
+        <DebugFont>Consolas|-9|   |0</DebugFont>
+        <DisplayMapFont>Consolas|-9|   |0</DisplayMapFont>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+      <Debug>False</Debug>
+    </FileState>
+    <FileState>
+      <ID>id_d755da4a99cf7091fdbcab974c9ac44c</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\Projects\tai_phake\source\tai_phake.kps</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_9ccc7f5ce2c75e8cbd2ed1a51afb63ad</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\Projects\tai_phake\source\tai_phake.kvks</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_356e5d149c1e539356d72698c1e401a6</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\Projects\tai_phake\source\welcome.htm</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_8e9627857ba5beb5735653aa5a188c03</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\Projects\tai_phake\source\..\build\tai_phake.kmx</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_f8f7b645b726e50df3d901987053f53c</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\Projects\tai_phake\source\..\build\tai_phake.js</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_5dbb469c30212e517798ec00939c6d0d</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\Projects\tai_phake\source\..\build\tai_phake.kvk</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_c296b5df3dc126e219e0173fcbc1baec</ID>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\Projects\tai_phake\source\..\LICENSE.md</FullPath>
+    </FileState>
+  </FileStates>
+  <MRU>
+    <File>
+      <ID>id_MRU0</ID>
+      <Filename>tai_phake.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\Users\cwcor\Documents\Keyman Developer\Projects\tai_phake\source\tai_phake.kmn</FullPath>
+    </File>
+  </MRU>
+</KeymanDeveloperProjectUser>

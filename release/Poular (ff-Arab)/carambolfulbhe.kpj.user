@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProjectUser>
+  <ViewState>
+    <tab>0</tab>
+    <showhelp>1</showhelp>
+    <path>C:\Users\cwcor\GIT\keyboards-1\experimental\c\carambolfulbhe\carambolfulbhe.kpj</path>
+    <file ID="id_MRU0" Expanded="1"/>
+    <file ID="id_73654259f5ffa29f53764e9d898fa9b5" Expanded="1"/>
+  </ViewState>
+  <FileStates>
+    <FileState>
+      <ID>id_24d817bc3618f234ab5493d73f371834</ID>
+      <FullPath>C:\Users\cwcor\GIT\keyboards-1\experimental\c\carambolfulbhe\carambolfulbhe.kpj</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_ce4c4edebc76ff60079c9504d8931603</ID>
+      <FullPath>C:\Users\cwcor\GIT\keyboards-1\experimental\c\carambolfulbhe\carambolfulbhe.kpj.user</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_4dd88daaae61ef60dedbf9d1d61405a2</ID>
+      <FullPath>C:\Users\cwcor\GIT\keyboards-1\experimental\c\carambolfulbhe\source\carambolfulbhe.ico</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_e4f32cc87e835fbd8762780e5cf1d328</ID>
+      <FullPath>C:\Users\cwcor\GIT\keyboards-1\experimental\c\carambolfulbhe\source\carambolfulbhe.keyman-touch-layout</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_73654259f5ffa29f53764e9d898fa9b5</ID>
+      <FullPath>C:\Users\cwcor\GIT\keyboards-1\experimental\c\carambolfulbhe\source\carambolfulbhe.kmn</FullPath>
+      <IDEState>
+        <CharFont>Consolas|10|   |0</CharFont>
+        <LayoutDisplay102Key>0</LayoutDisplay102Key>
+        <DebugDefaultFont>0</DebugDefaultFont>
+        <DebugFont>Consolas|10|   |0</DebugFont>
+        <DisplayMapFont>Consolas|-9|   |0</DisplayMapFont>
+        <CodeFont>Consolas|9|   |0</CodeFont>
+      </IDEState>
+      <Debug>True</Debug>
+    </FileState>
+    <FileState>
+      <ID>id_95b55f411723f347000d823a8f829f5e</ID>
+      <FullPath>C:\Users\cwcor\GIT\keyboards-1\experimental\c\carambolfulbhe\source\carambolfulbhe.kmx</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_531dc0b30fdc6b62271100c3736e57a5</ID>
+      <FullPath>C:\Users\cwcor\GIT\keyboards-1\experimental\c\carambolfulbhe\source\carambolfulbhe.kps</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_a7ab5d5044d85bdf1b2f1a6bc6fcea95</ID>
+      <FullPath>C:\Users\cwcor\GIT\keyboards-1\experimental\c\carambolfulbhe\source\carambolfulbhe.kvk</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|10|   |0</CodeFont>
+        <CharFont>Consolas|9|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_741dd4825f98213f5ca52c051b5d329f</ID>
+      <FullPath>C:\Users\cwcor\GIT\keyboards-1\experimental\c\carambolfulbhe\source\carambolfulbhe.kvks</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_8bbe3830b2e140d57244ebeb9c0f847e</ID>
+      <FullPath>C:\Users\cwcor\GIT\keyboards-1\experimental\c\carambolfulbhe\source\..\build\carambolfulbhe.js</FullPath>
+    </FileState>
+  </FileStates>
+  <MRU>
+    <File>
+      <ID>id_MRU0</ID>
+      <Filename>carambolfulbhe.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>C:\Users\cwcor\GIT\keyboards-1\experimental\c\carambolfulbhe\source\carambolfulbhe.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
+      <Filename>carambolfulbhe.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\Users\cwcor\GIT\keyboards-1\experimental\c\carambolfulbhe\source\carambolfulbhe.kmn</FullPath>
+    </File>
+  </MRU>
+</KeymanDeveloperProjectUser>
