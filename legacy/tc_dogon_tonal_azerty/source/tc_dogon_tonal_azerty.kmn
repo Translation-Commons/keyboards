@@ -1,11 +1,13 @@
-﻿c No functional changes, updating to Keyman Developer version 18
-store(&Version) "10.0"
-store(&NAME) 'TC Dogon Tonal AZERTY 1.02'
-store(&TARGETS) 'any windows macosx linux web iphone ipad androidphone androidtablet mobile desktop tablet'
-store(&VISUALKEYBOARD) 'tc_dogon_tonal_azerty.kvks'
-store(&BITMAP) 'tc_dogon_tonal_azerty.ico'
-store(&COPYRIGHT) '©2023 Tex Texin, Translation Commons'
-store(&KEYBOARDVERSION) '1.2.1'
+﻿c dogon_tonal_azerty generated from template at 2026-01-07 15:39:35
+c with name "Dogon Tonal Azerty"
+store(&VERSION) '10.0'
+store(&NAME) 'Dogon Tonal Azerty'
+store(&COPYRIGHT) 'Copyright © 2023 Tex Texin, Translation Commons'
+store(&KEYBOARDVERSION) '1.0.2'
+store(&TARGETS) 'any'
+store(&BITMAP) 'dogon_tonal_azerty.ico'
+store(&VISUALKEYBOARD) 'dogon_tonal_azerty.kvks'
+store(&LAYOUTFILE) 'dogon_tonal_azerty.keyman-touch-layout'
 
 begin Unicode > use(main)
 store(&CasedKeys) [K_A]..[K_Z]
