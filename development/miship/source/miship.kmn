@@ -1,0 +1,42 @@
+﻿
+store(&VERSION)         '17.0'
+store(&NAME)            'Miship'
+store(&COPYRIGHT) '© 2025 Translation Commons'
+store(&KEYBOARDVERSION) '1.0'
+store(&TARGETS)         'windows macosx linux ipad iphone androidphone androidtablet tablet desktop web'
+store(&BITMAP)          'miship.ico'
+store(&VISUALKEYBOARD)  'miship.kvks'
+store(&LAYOUTFILE)      'miship.keyman-touch-layout'
+
+begin Unicode > use(main)
+
+group(main) using keys
+
+c --- Hooked letters -------------------------------------------------------
++ [RALT K_B]       > 'ɓ'
++ [RALT SHIFT K_B] > 'Ɓ'
++ [RALT K_D]       > 'ɗ'
++ [RALT SHIFT K_D] > 'Ɗ'
+
+c --- Breathy / murmured h -------------------------------------------------
++ [RALT K_H]       > 'ɦ'
++ [RALT SHIFT K_H] > 'Ɦ'
+
+c --- Barred i --------------------------------------------------------------
++ [RALT K_I]       > 'ɨ'
++ [RALT SHIFT K_I] > 'Ɨ'
+
+c --- Velar nasal, voiced velar fricative, esh, ezh --------------------------
++ [RALT K_N]       > 'ŋ'
++ [RALT K_G]       > 'ɣ'
++ [RALT K_S]       > 'ʃ'
++ [RALT K_Z]       > 'ʒ'
+
+c --- Dead key: dot below (for ṇ Ṇ ṃ Ṃ) --------------------------------------
++ [RALT K_PERIOD]  > dk(dotbelow)
+
+dk(dotbelow) + 'n'      > 'ṇ'
+dk(dotbelow) + 'N'      > 'Ṇ'
+dk(dotbelow) + 'm'      > 'ṃ'
+dk(dotbelow) + 'M'      > 'Ṃ'
+dk(dotbelow) + [K_SPACE] > '.'
