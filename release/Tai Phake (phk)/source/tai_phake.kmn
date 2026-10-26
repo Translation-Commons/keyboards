@@ -1,0 +1,188 @@
+﻿c Variation selectors will show dotted forms if the font and rendering are capable.
+c E-vowel is typed before consonants.
+c Sat (killer) typed after E-vowels + consonant is reordered.
+c Added U+A9E5 to shift-Q key. Added reordering with other vowels.
+c Fix problems with e-k and e-h.
+c Reordering more vowels.
+c Added Number/Symbols layer.
+c 1.14.3: Fix space bar on default. Remove digits from default layer.
+
+c tai_phake generated from template at 2026-09-21 20:07:29
+c with name "Tai Phake"
+store(&VERSION) '10.0'
+store(&NAME) 'Tai Phake'
+store(&COPYRIGHT) 'Copyright ©'
+store(&KEYBOARDVERSION) '1.0'
+store(&TARGETS) 'any'
+store(&BITMAP) 'tai_phake.ico'
+store(&VISUALKEYBOARD) 'tai_phake.kvks'
+store(&LAYOUTFILE) 'tai_phake.keyman-touch-layout'
+
+begin Unicode > use(main)
+
+group(main) using keys
++ [SHIFT K_M] > 'ံ'
++ [SHIFT K_N] > 'ၺ︀'
++ [SHIFT K_B] > 'ꩰ'
++ [SHIFT K_V] > 'ထ︀'
++ [SHIFT K_C] > 'ႊ'
++ [SHIFT K_X] > 'ႜ'
++ [SHIFT K_Z] > 'ၞ'
++ [SHIFT K_QUOTE] > '"'
++ [SHIFT K_COLON] > ':'
++ [SHIFT K_L] > 'း'
++ [SHIFT K_K] > '္က︀'
++ [SHIFT K_H] > 'ႈ'
++ [SHIFT K_J] > 'ို'
++ [SHIFT K_G] > 'ႇ'
++ [SHIFT K_F] > '်ံ'
++ [SHIFT K_D] > 'ꩰ'
++ [SHIFT K_S] > '꩷'
++ [SHIFT K_A] > 'ဢ︀'
++ [SHIFT K_BKSLASH] > 'ု'
++ [SHIFT K_RBRKT] > '်'
++ [SHIFT K_LBRKT] > 'ၜ'
++ [SHIFT K_P] > '္ပ︀'
++ [SHIFT K_O] > 'ႉ'
++ [SHIFT K_I] > 'ီ'
++ [SHIFT K_U] > 'ူ'
++ [SHIFT K_Y] > 'ျ'
++ [SHIFT K_T] > '္တ︀'
++ [CTRL K_V] > '‌ြ'
++ [SHIFT K_R] > 'ြ'
++ [SHIFT K_E] > 'ၞ်'
++ [SHIFT K_W] > 'ွ်'
++ [SHIFT K_Q] > 'ꧥ'
++ [SHIFT K_HYPHEN] > 'ရ'
++ [SHIFT K_8] > '*'
++ [SHIFT K_7] > 'ႝ ႝ'
++ [SHIFT K_6] > 'ာ'
++ [SHIFT K_5] > '် ်'
++ [SHIFT K_4] > 'ီ ီ'
++ [SHIFT K_3] > 'ံ ံ'
++ [SHIFT K_2] > '꩹'
++ [SHIFT K_1] > '꩸'
++ [K_HYPHEN] > 'န'
++ [K_0] > '၀'
++ [K_9] > '၉'
++ [K_8] > '၈'
++ [K_7] > '၇'
++ [K_5] > '၅'
++ [K_6] > '၆'
++ [K_4] > '၄'
++ [K_3] > '၃'
++ [K_2] > '၂'
++ [K_1] > '၁'
++ [K_SLASH] > '။'
++ [K_M] > 'မ︀'
++ [K_N] > 'ꩫ︀'
++ [K_B] > 'ဗ'
++ [K_V] > 'ထ︀'
++ [K_C] > 'ꩡ︀'
++ [K_X] > 'ၵ︀'
++ [K_Z] > '꩸'
++ [K_BKSLASH] > '၊'
++ [K_P] > 'ပ︀'
++ [K_O] > 'ွ'
++ [K_I] > 'ိ'
++ [K_U] > 'ု'
++ [K_Y] > 'ယ︀'
++ [K_T] > 'တ︀'
++ [K_R] > 'ꩺ︀'
++ [K_E] > U+200c U+1031 U+fe00
++ [K_W] > 'ဝ︀'
++ [K_Q] > '်'
++ [K_QUOTE] > 'ၢ'
++ [K_COLON] > 'ၤ'
++ [K_L] > 'လ︀'
++ [K_K] > 'က︀'
++ [K_J] > 'ႝ'
++ [K_H] > 'ꩭ'
++ [K_G] > 'င︀'
++ [K_F] > 'ၸ︀'
++ [K_D] > 'ဒ'
++ [K_S] > 'ꩬ︀'
++ [K_A] > 'ႃ'
+
+store( consonants ) "ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠအဢဣဤဥဦဧဨဩဪဿ၎ၵၸႝꩡꩢꩣꩤꩥꩦꩧꩨꩩꩪꩫꩬꩭꩮꩯꩰꩱꩲꩳꩴꩵꩶ꩷꩸꩹ꩺꩻꩼꩽꩾꩿ꧲"
+
+store (dotted_consonants) U+101d U+AA7A U+1010 U+101A U+1015 U+AA6C U+1078 U+1004 U+1000 U+101C U+1075 U+AA61 U+1011 U+AA6B U+1019 U+AA6D U+1022 U+107A
+store (dotless_consonants) U+1012 U+1017 
+store (dotted_keys) "wrtypsfgklxcvnmhAN"
+store (dotless_keys) "db"
+c Variation Selector (VS)
+store( vs ) U+FE00
+store(evowel) U+1031
+
+store (left_diacritics) U+103a U+103b U+103c U+103d U+105e U+a9e5
+store (right_diacritics) U+102d U+102e U+102f U+1030 U+1036
+
+c + "‌ေ︀" any( consonants ) > U+101D U+FE00 U+1031 U+FE00
+c "ေ︀" + U+101D > U+101D U+1031 U+fe00
+U+200c U+1031 U+fe00 + any(dotted_keys) > index(dotted_consonants,4) U+FE00 U+1031 U+FE00
+U+200c U+1031 U+fe00 + any(dotless_keys) > index(dotless_consonants,4) U+1031 U+FE00
+
+c Move E vowel over medials and sat(killer)
+c Working fine
+U+1031 U+fe00 + "q" > U+103a U+1031 U+fe00
+U+1031 U+fe00 + "R" > U+103c U+1031 U+fe00
+U+1031 U+fe00 + "Y" > U+103b U+1031 U+fe00
+U+1031 U+fe00 + "o" > U+103d U+1031 U+fe00
+
+c subscript consonants  
+U+1031 U+fe00 + "T" > U+1039 U+1010 U+fe00 U+1031 U+fe00
+U+1031 U+fe00 + "P" > U+1039 U+1015 U+fe00 U+1031 U+fe00
+U+1031 U+fe00 + "K" > U+1039 U+1000 U+fe00 U+1031 U+fe00
+
+c Disallow multiple evowels in a row.
+U+200c U+1031 U+fe00 + [K_E] > U+200c U+1031 U+fe00
+
+c reorder vowels and diphthongs
+U+102d + [K_O] > U+103d U+102d
+
+U+102f + [K_I] > U+102d U+102F
+U+102f + [K_Q] > U+103a U+102F
+U+102f + [K_J] > U+109d U+102F
+
+U+109d + [K_Q] > U+103a U+109d
+U+109d + [K_O] > U+103d U+109d
+
+U+103d + [K_Q] > U+103a U+103d
+
+U+1036 + [K_Q] > U+103a U+1036
+U+1036 + [K_U] > U+102f U+1036
+U+1036 + [K_O] > U+103d U+1036
+U+1036 + [SHIFT K_Q] > U+A9E5 U+1036
+
+U+105e + [K_Q] > U+103a U+105e
+
+U+A9E5 + [SHIFT K_Y] > U+103b U+A9E5
+U+A9E5 + [SHIFT K_Z] > U+105e U+A9E5
+
+c Delete variation selector and character at same time
+any(consonants) U+fe00 + [K_BKSP] > nul
+U+200c U+1031 U+fe00 + [K_BKSP] > nul
+U+1031 U+fe00 + [K_BKSP] > nul
+
+c Reordering for 102d - 1030, 1036 vs 103a - 103d, 105e, and a935
+U+102d + [K_Q] > U+103a U+102d
+U+1030 + [K_Q] > U+103a U+1030
+
+U+102d + [SHIFT K_Y] > U+103b U+102d
+U+102e + [SHIFT K_Y] > U+103b U+102e
+U+102f + [SHIFT K_Y] > U+103b U+102f
+U+1030 + [SHIFT K_Y] > U+103b U+1030
+U+1036 + [SHIFT K_Y] > U+103b U+1036
+
+U+102d + [SHIFT K_R] > U+103c U+102d
+U+102e + [SHIFT K_R] > U+103c U+102e
+U+102f + [SHIFT K_R] > U+103c U+102f
+U+1030 + [SHIFT K_R] > U+103c U+1030
+U+1036 + [SHIFT K_R] > U+103c U+1036
+
+U+102e + [K_O] > U+103d U+102e
+U+102f + [K_O] > U+103d U+102f
+U+1030 + [K_O] > U+103d U+1030
+
+U+102d + [SHIFT K_Z] > U+105e U+102d
+U+102e + [SHIFT K_Z] > U+105e U+102e

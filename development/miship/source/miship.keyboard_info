@@ -1,0 +1,32 @@
+{
+  "system": {
+    "keymanVersion": "17.0",
+    "fileVersion": "7.0"
+  },
+  "id": "miship",
+  "name": "Miship",
+  "version": "1.0",
+  "languages": {
+    "mjs": {
+      "name": "Miship"
+    }
+  },
+  "author": {
+    "name": "Kwaknan Denlong Philip",
+    "requestedBy": "Kwaknan Denlong Philip",
+    "communityContact": "Reverend Caleb Zephaniah Katwal"
+  },
+  "description": "A Keyman keyboard for Miship, an Afro-Asiatic (West Chadic) language spoken by over 17,000 people in Miship land, Pankshin Local Government Area, Plateau State, Nigeria. Special letters (Ɓ ɓ, Ɗ ɗ, Ɦ ɦ, Ɨ ɨ, ŋ, ɣ, ʃ, ʒ, ṇ, ṃ) are typed with the AltGr (Right Alt) key; a dead key produces the dot-below letters ṇ, Ṇ, ṃ, Ṃ.",
+  "isRTL": false,
+  "encodings": ["unicode"],
+  "platformSupport": {
+    "windows": "full",
+    "macos": "full",
+    "linux": "full",
+    "android": "full",
+    "ios": "full",
+    "web": "full"
+  },
+  "sourcePath": "miship",
+  "license": "mit"
+}
